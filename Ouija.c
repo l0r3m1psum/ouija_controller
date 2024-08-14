@@ -214,7 +214,7 @@ void Writer(void *arg) {
     }
     Sleep(2 * 1000);
 
-    // Ouja board
+    // Ouija board
     // +-------------------------+
     // |       yes  *  no        |
     // |                         |
@@ -318,7 +318,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR pCmdLine
     HWND hwnd = CreateWindowEx(
         0,                     // Optional window styles.
         MAKEINTATOM(wcAtom),   // Window class
-        L"Ouja Controller",    // Window text
+        L"Ouija Controller",    // Window text
         (WS_OVERLAPPEDWINDOW ^ WS_THICKFRAME) ^ WS_MAXIMIZEBOX | WS_VISIBLE,
         CW_USEDEFAULT, CW_USEDEFAULT, // x,y
         400, 200,   // w,h

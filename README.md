@@ -1,8 +1,8 @@
-# Grbl interface for Ouja board
+# Grbl interface for Ouija board
 
 After some reverse engineering with the amazing [Free Serial
 Analyzer](https://freeserialanalyzer.com), I have discovered that the firmware
-on the Ouja board probably used [Grbl](https://github.com/grbl/grbl) to drive
+on the Ouija board probably used [Grbl](https://github.com/grbl/grbl) to drive
 the motors. Below there are some useful references:
 
   * [Jogging](https://github.com/gnea/grbl/wiki/Grbl-v1.1-Jogging)
