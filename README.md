@@ -19,6 +19,10 @@ Grbl threads like:
   * [how to check the status of a grbl
 	command](https://openbuilds.com/threads/18417/)
 
+It looks like that the boards gives you feedback on the serial port only if
+unpon initialization an OTP is provided (this changes all the times maybe they
+use hash chains).
+
 A possible way to test this software is to use
 [com0com](https://com0com.sourceforge.net), which is a [null
 modem](https://en.wikipedia.org/wiki/Null_modem) emulator, attaching on the
