@@ -26,6 +26,12 @@ other hand of the vurtual COM port an implementation of a Grbl compatible
 software that can run on Windows, like
 [uCNC](https://github.com/Paciente8159/uCNC/blob/master/makefiles/virtual/makefile).
 
+The way that I'm doing it now it to type
+```
+install PortName=COM3 PortName=COM4
+```
+in the `com0com` console and use `monitor.ps1` to see what my program writes.
+
 com0com can also be used as an open source alternative to Free Serial Analyzer
 using [hub4com](https://com0com.sourceforge.net/hub4com/ReadMe.txt).
 
