@@ -281,7 +281,7 @@ void Writer(void *arg) {
             if (!WriteFile(hPort, bufGcode, (DWORD)(sizeof bufGcode - remaining), &numberOfBytesWritten, NULL)) {
                 ErrorExit();
             }
-            Sleep(count * 1000);
+            Sleep(count * 2 * 1000);
             break;
         default:
             assert(0);
