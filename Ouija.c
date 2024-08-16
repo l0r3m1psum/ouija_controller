@@ -152,6 +152,8 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) 
 void Writer(void *arg) {
     // The driver makes the serial communication work only if the USB is
     // connected to a particular port and assigns it to COM3.
+    // http://www.wch.cn/download/CH341SER_ZIP.html
+    // https://github.com/juliagoda/CH341SER
     HANDLE hPort = CreateFileW(L"\\\\.\\COM3",
         GENERIC_READ | GENERIC_WRITE,
         0,                                  // the devide isn't shared.
